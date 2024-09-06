@@ -1,0 +1,40 @@
+body {
+  background: #2f3136 !important;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  background: grey;
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+  background: grey;
+}
+
+.wallet-adapter-modal {
+  z-index: 9999;
+}
+
+.disabled {
+  opacity: 0.3;
+}
+
+
+.swiper-pagination-bullet {
+  background: #595959;
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background: #F3F3F3;
+}
